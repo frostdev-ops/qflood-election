@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "jsxImportSource": "@emotion/react",
+    "sourceMap": true,
+    "target": "esnext",
+    "moduleResolution": "node",
+    "allowJs": true,
+    "module": "esnext",
+    "noEmit": true,
+    "strict": true,
+    "isolatedModules": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "useDefineForClassFields": true,
+    "baseUrl": "./",
+    "paths": {
+      "@client/*": ["client/src/javascript/*"],
+      "@server/*": ["server/*"],
+      "@shared/*": ["shared/*"]
+    }
+  },
+  "include": ["./client/**/*.ts", "./client/**/*.tsx", "./server/**/*.ts", "./server/**/*.tsx"],
+  "exclude": ["node_modules"]
+}
