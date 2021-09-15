@@ -51,7 +51,6 @@ node_modules/
 config.js
 
 # Distribution files
-dist/
 dist-pkg/
 
 # Runtime files
